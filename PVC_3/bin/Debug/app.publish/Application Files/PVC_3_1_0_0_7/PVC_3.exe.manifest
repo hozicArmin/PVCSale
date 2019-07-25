@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PVC_3.exe" version="1.0.0.7" publicKeyToken="ed1005e8a3de9b54" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PVC_3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PVC_3.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.AcroPDFLib.dll" size="9216">
+      <assemblyIdentity name="AxInterop.AcroPDFLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wf6+fZEidhz4JdIEEDUuowwEs1uYn/3RNbIJ7L5HbdY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.AcroPDFLib.dll" size="12800">
+      <assemblyIdentity name="Interop.AcroPDFLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nkh9yv+EmpdWvCbqDYWDFB2TyusqNAECZk6W4uIouKo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="4059136">
+      <assemblyIdentity name="itextsharp" version="5.5.10.0" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sMuANLVD/qDi+h6UlWBHrb4CHdSrUiq1s83Ekk3rO14=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.pdfa.dll" size="98304">
+      <assemblyIdentity name="itextsharp.pdfa" version="5.5.10.0" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>eFg+dzWB4Z7dpDgFjJElZjRJL1cL+yM0kNJqb6IZoW4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.xtra.dll" size="81920">
+      <assemblyIdentity name="itextsharp.xtra" version="5.5.10.0" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YCniXrDKx7v9NrbWa00U65VLoyfUNf9y+PScI13AesY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PVC_3.exe" size="317424">
+      <assemblyIdentity name="PVC_3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>t7JQnBvNW3hBYnOsgSr4W2XwPICWW8qPLiW+0wKtxUA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PVC_3.exe.config" size="815">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>78XiggbDRgtjnNm105dUQ/sg5OKUf/fa1wjBGfHnMi4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-A8RSSN3\Korisnik" issuerKeyHash="24c9817195a81c906e8b2f832159d1ca01be9b3b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VhSFdsg6OP+PEFcjccXIFIGqxdXVkqDFRXNvR7Cu908=</DigestValue></Reference></SignedInfo><SignatureValue>HTo8MpH9NZtLQVEJTsklGUiS0JRIw39+X8x7AJCf9CEglUN2Som6clJ4/F1qFlk4cbX4wjYH2Bywwp9QKdGOOYCCfjt2ksFDjsL0wsB+kVA7HnBg7GIR//ywGMcCHBtofTN5NOtTK1pdIBhuQheyn4xTaSpsM15r4E2jPEZ/wDM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nro6M7jSNBcSTHOUGd45w79i6o1XR8/A1krcLEEt1BC1IoL2bjNmA6TfWLsvaasTYE0IznFesY0wFgMspUUTp7dBIUxyMWgQ0tuLm1S0p5N4tYCno2zaQj77bP349M+zXYSHnvK0SfsC4KE6XDGOENzUgvmiaSCThOoG5YqJaLM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4ff7aeb0476f7345c5a092d5d5c5aa8114c8c5712357108fff383ac876851456" Description="" Url=""><as:assemblyIdentity name="PVC_3.exe" version="1.0.0.7" publicKeyToken="ed1005e8a3de9b54" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-A8RSSN3\Korisnik</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>H/Q8W3XwT2rZOENvXUqMC4QdBKutJ2yc/aVbWrac5Co=</DigestValue></Reference></SignedInfo><SignatureValue>O1dXarCQPpflt/rGe+hzjbMwTulfNnaYSz0BsHqoxlO2q98GVnb3HhZxm+G0rtcf7QVz2SB6H8xNnaIHNEqYPswBvkLOJu9uvClXweUw+m/po5dk0gscGPVv6yiADjjKlVfS+B/SgVtsxPmgoxVDpjhayLSvXtdRzjnmN7IJUwE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nro6M7jSNBcSTHOUGd45w79i6o1XR8/A1krcLEEt1BC1IoL2bjNmA6TfWLsvaasTYE0IznFesY0wFgMspUUTp7dBIUxyMWgQ0tuLm1S0p5N4tYCno2zaQj77bP349M+zXYSHnvK0SfsC4KE6XDGOENzUgvmiaSCThOoG5YqJaLM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQZ6aS77i4K7RKzZJpmRcDvTANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEEAOABSAFMAUwBOADMAXABLAG8AcgBpAHMAbgBpAGswHhcNMTYxMTE1MTQwNDUxWhcNMTcxMTE1MjAwNDUxWjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEEAOABSAFMAUwBOADMAXABLAG8AcgBpAHMAbgBpAGswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ66OjO40jQXEkxzlBneOcO/YuqNV0fPwNZK3CxBLdQQtSKC9m4zZgOk31i7L2mrE2BNCM5xXrGNMBYDLKVFE6e3QSFMcjFoENLbi5tUtKeTeLWAp6Ns2kI++2z9+PTPs12Eh57ytEn7AuChOlwxjhDc1IL5omkgk4TqBuWKiWizAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAfqLCodyHAbkBPFxliBKNvaIn11fSGeGa7K1tVtk/mBhz9tFF6Luk4HhyO5qD0+KdO8/eAxLFSTxoVvdgSce1ui530Mfvh0NsnJjke0lHqqDrIrFtLX2HKOp/WruaRr54X7tQ3w72oP/TJ7JdV8lwy9L7aRE5x0zVFevYJi/qjrE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
